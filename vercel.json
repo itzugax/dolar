@@ -1,5 +1,8 @@
 {
   "functions": {
-    "api/*.js": { "runtime": "edge" }
+    "api/binance.js": {
+      "memory": 128,
+      "maxDuration": 10
+    }
   }
 }
